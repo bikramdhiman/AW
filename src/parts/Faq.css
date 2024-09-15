@@ -1,0 +1,60 @@
+/* FAQ Page Container */
+.faq-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e0c3fc, #8ec5fc);
+}
+
+/* FAQ Section Title */
+.faq-container h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* FAQ Card Styling */
+.faq-card {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  align-items: center;
+}
+
+/* Image Styling */
+.faq-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+/* FAQ Content */
+.faq-content {
+  text-align: left;
+  padding-left: 20px;
+  flex: 1;
+}
+
+/* Question Styling */
+.faq-content h3 {
+  font-size: 1.2rem;
+  color: #f05d5e;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Answer Styling */
+.faq-content p {
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Fruit Name Styling */
+.fruit-name {
+  color: #f05d5e;
+  font-weight: bold;
+}

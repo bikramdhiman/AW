@@ -1,0 +1,88 @@
+/* General Styling */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom right, #e0c3fc, #8ec5fc);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the App */
+.app-container {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+}
+
+/* Title and Tagline */
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+/* Button Grid */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* Grid Items (Buttons) */
+.grid-item {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+/* Individual Button Styles */
+.chat {
+  background-color: #ffebcc;
+  color: #e73895;
+  font-weight: bold;
+  border: 3px solid #e73895;
+}
+
+.translate {
+  background-color: #d4f1f9;
+}
+
+.faqs {
+  background-color: #d1b2ff;
+  color: #4c3a91;
+  font-weight: bold;
+}
+
+.about {
+  background-color: #f3c2f1;
+  color: #d45da1;
+  font-weight: bold;
+}
+
+/* Image Styling for Translate */
+.grid-item img {
+  width: 60px;
+  height: 60px;
+}
